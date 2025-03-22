@@ -1,0 +1,1719 @@
+/* Estilos generales para el body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc; /* Fondo suave */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro-body {
+    background-color: #f5f7fa;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* ============================ */
+/* ======= FORMULARIO ======= */
+/* ============================ */
+
+.registro-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.registro-titulo {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.registro-input,
+.registro-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+}
+
+.registro-btn {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registro-btn:hover {
+    background-color: #45a049;
+}
+
+.registro-texto {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.registro-enlace {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.registro-enlace:hover {
+    text-decoration: underline;
+}
+
+/* MENSAJES DE ÉXITO Y ERROR */
+.registro-exito,
+.registro-error {
+    width: 60%;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.registro-exito {
+    background-color: #d4edda;
+    color: #155724;
+    border: 2px solid #c3e6cb;
+}
+
+.registro-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 2px solid #f5c6cb;
+}
+
+.registro-btn-volver {
+    display: inline-block;
+    background-color: #155724;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.registro-btn-volver:hover {
+    background-color: #0f3d19;
+}
+
+/* Login*/
+
+/* ============================ */
+/* ======= CONTENEDOR LOGIN ======= */
+/* ============================ */
+
+.login-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    padding: 40px 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* ============================ */
+/* ======= LOGO ======= */
+/* ============================ */
+
+.logo img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid #4CAF50; /* Resaltando el logo */
+    padding: 5px;
+}
+
+/* ============================ */
+/* ======= TITULO ======= */
+/* ============================ */
+
+h2 {
+    color: #4CAF50;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* ============================ */
+/* ======= FORMULARIO ======= */
+/* ============================ */
+
+.form-label {
+    color: #555;
+    font-weight: 600;
+}
+
+.form-control {
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    padding: 10px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #45a049;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* ============================ */
+/* ======= BOTÓN ======= */
+/* ============================ */
+
+.btn-primary {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+/* ============================ */
+/* ======= ENLACES ======= */
+/* ============================ */
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ============================ */
+/* ======= MENSAJE INFORMATIVO ======= */
+/* ============================ */
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* ============================ */
+/* ======= RESPONSIVE ======= */
+/* ============================ */
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 30px 20px;
+        width: 90%;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .form-control,
+    .btn-primary {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Menu Principal*/
+
+/* ============================ */
+/* ======= ESTILOS GENERALES ======= */
+/* ============================ */
+
+.menu-body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+/* ============================ */
+/* ======= CONTENEDOR MENÚ ======= */
+/* ============================ */
+
+.menu-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 40px 35px;
+    animation: fadeIn 0.5s ease-in-out;
+    margin-top: 50px;
+    height: auto;
+
+}
+
+/* Animación de Entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* ============================ */
+/* ======= TÍTULOS Y TEXTOS ======= */
+/* ============================ */
+
+.menu-titulo {
+    color: #4CAF50;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.menu-subtitulo {
+    color: #6c757d;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.menu-total-pagos {
+    background-color: #e8f5e9;
+    color: #1b5e20;
+    padding: 12px 20px;
+    border: 2px solid #2e7d32;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* ============================ */
+/* ======= LISTA DE ENLACES ======= */
+/* ============================ */
+
+.menu-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-enlace {
+    display: block;
+    padding: 14px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+    margin: 8px 0;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.menu-enlace:hover {
+    background-color: #388E3C;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(76, 175, 80, 0.3);
+}
+
+/* ============================ */
+/* ======= BOTÓN DE CERRAR SESIÓN ======= */
+/* ============================ */
+
+.menu-logout-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 24px;
+    background-color: #f44336;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: background 0.3s ease;
+}
+
+.menu-logout-btn:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(244, 67, 54, 0.3);
+}
+
+/* ============================ */
+/* ======= RESPONSIVE DESIGN ======= */
+/* ============================ */
+
+@media (max-width: 480px) {
+    .menu-container {
+        padding: 30px 20px;
+        width: 90%;
+    }
+
+    .menu-titulo {
+        font-size: 2rem;
+    }
+
+    .menu-subtitulo {
+        font-size: 1.2rem;
+    }
+
+    .menu-enlace,
+    .menu-logout-btn {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
+
+/* Crear Cliente */	
+
+/* Crear Cliente */
+.crear-cliente-body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f2f5;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 0;
+}
+
+/* ============================ */
+/* ======= CONTENEDOR PRINCIPAL ======= */
+/* ============================ */
+.crear-cliente-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+}
+
+/* ============================ */
+/* ======= TÍTULO ======= */
+/* ============================ */
+.crear-cliente-titulo {
+    color: #4CAF50;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* ============================ */
+/* ======= FORMULARIO ======= */
+/* ============================ */
+.crear-cliente-form label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.crear-cliente-form input, 
+.crear-cliente-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* ============================ */
+/* ======= BOTÓN DE ENVÍO ======= */
+/* ============================ */
+.crear-cliente-btn {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.crear-cliente-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* ============================ */
+/* ======= RESPONSIVE DESIGN ======= */
+/* ============================ */
+@media (max-width: 480px) {
+    .crear-cliente-container {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+/* MENSAJES DE ÉXITO Y ERROR */
+.registro-exito,
+.registro-error {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid;
+}
+
+.registro-exito {
+    background-color: #d4edda;
+    color: #155724;
+    border-left-color: #28a745;
+}
+
+.registro-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-left-color: #dc3545;
+}
+
+.registro-btn-volver {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.registro-btn-volver:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estado Cliente*/
+/* ============================ */
+/* ======= ESTILO GENERAL ======= */
+/* ============================ */
+/* ============================ */
+/* ======= ESTILO GENERAL ======= */
+/* ============================ */
+.estado-body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    height: auto; /* Corrección para mejor manejo del scroll */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+/* ============================ */
+/* ======= CONTENEDOR PRINCIPAL ======= */
+/* ============================ */
+.estado-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 650px; /* Más ancho para mejor distribución del contenido */
+    text-align: center;
+    border: 3px solid #4CAF50; /* Borde más llamativo */
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* ============================ */
+/* ======= TÍTULO ======= */
+/* ============================ */
+.estado-titulo {
+    color: #4CAF50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 100, 0, 0.2);
+}
+
+/* ============================ */
+/* ======= TABLA ======= */
+/* ============================ */
+.estado-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    overflow: hidden; /* Para respetar las esquinas redondeadas */
+    border-radius: 12px;
+}
+
+.estado-tabla th {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.estado-tabla td {
+    background-color: #FAFAFA;
+    color: #333;
+    padding: 12px;
+    border-bottom: 2px solid #ddd;
+}
+
+.estado-tabla tr:hover {
+    background-color: #E8F5E9; /* Efecto visual más limpio */
+}
+
+/* ============================ */
+/* ======= ENLACES ======= */
+/* ============================ */
+.estado-enlace {
+    text-decoration: none;
+    color: #0078D7;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.estado-enlace:hover {
+    color: #004A99;
+    text-decoration: underline;
+}
+
+/* ============================ */
+/* ======= MENSAJE VACÍO ======= */
+/* ============================ */
+.estado-vacio {
+    background-color: #FFEBEE;
+    color: #C62828;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #E57373;
+}
+
+/* ============================ */
+/* ======= BOTÓN DE REGRESO ======= */
+/* ============================ */
+.estado-btn-volver {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.estado-btn-volver:hover {
+    background-color: #388E3C;
+    transform: scale(1.07);
+}
+
+/* ============================ */
+/* ======= ANIMACIONES ======= */
+/* ============================ */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ============================ */
+/* ======= RESPONSIVE DESIGN ======= */
+/* ============================ */
+@media (max-width: 600px) {
+    .estado-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .estado-titulo {
+        font-size: 2rem;
+    }
+
+    .estado-tabla th, 
+    .estado-tabla td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .estado-btn-volver {
+        width: 100%;
+    }
+}
+
+
+/* Ver Estado Cliente*/
+/* ============================ */
+/* ======= DISEÑO GENERAL ======= */
+/* ============================ */
+.estado-cliente-body {
+    background-color: #f0f2f5;  /* Fondo suave */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    display: flex;
+    height: 130vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ============================ */
+/* ======= CONTENEDOR PRINCIPAL ======= */
+/* ============================ */
+.estado-cliente-container {
+    background-color: #ffffff;
+    border: 3px solid #4CAF50;  /* Borde verde para resaltar */
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); 
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* ============================ */
+/* ======= TÍTULO PRINCIPAL ======= */
+/* ============================ */
+.estado-cliente-titulo {
+    text-align: center;
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* ============================ */
+/* ======= INFORMACIÓN DEL CLIENTE ======= */
+/* ============================ */
+.estado-cliente-info p {
+    margin: 8px 0;
+    font-size: 15px;
+    text-align: left;
+}
+
+.estado-cliente-info strong {
+    color: #4CAF50;
+    font-weight: 600;
+}
+
+/* ============================ */
+/* ======= CÍRCULOS DE PAGO ======= */
+/* ============================ */
+.circulos-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.circulo {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #FF9800;  /* Naranja vibrante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #FFA726; /* Borde sutil para mejorar el contraste */
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.circulo:hover {
+    background-color: #FFB74D;
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(255, 193, 7, 0.3);
+}
+
+.pago-realizado {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: 2px solid #388E3C;
+}
+
+/* ============================ */
+/* ======= BOTÓN DE VOLVER ======= */
+/* ============================ */
+.estado-btn-volver {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.estado-btn-volver:hover {
+    background-color: #45A049;
+    transform: scale(1.05);
+}
+
+/* ============================ */
+/* ======= RESPONSIVE DESIGN ======= */
+/* ============================ */
+@media (max-width: 600px) {
+    .estado-cliente-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .circulo {
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .circulos-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    color: #4CAF50; /* Verde */
+    border: 3px solid #4CAF50;
+    border-radius: 20px;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #4CAF50; /* Verde */
+}
+
+.modal-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #4CAF50;
+    outline: none;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal-btn {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.modal-btn:hover {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+.modal-btn.cancelar {
+    background-color: #ff4500; /* Rojo anaranjado */
+    color: #ffffff;
+    border: none;
+}
+
+.modal-btn.cancelar:hover {
+    background-color: #e64a19;
+}
+
+/* Animación de aparición */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* Clientes Totales */
+/* ============================ */
+/* ======= ESTILO GENERAL ======= */
+/* ============================ */
+.clientes-totales-body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+    padding: 20px;
+}
+
+/* ============================ */
+/* ======= CONTENEDOR PRINCIPAL ======= */
+/* ============================ */
+.clientes-totales-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    border: 3px solid #4CAF50; 
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* ============================ */
+/* ======= TÍTULO ======= */
+/* ============================ */
+.clientes-totales-titulo {
+    color: #4CAF50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 100, 0, 0.2);
+}
+
+/* ============================ */
+/* ======= TARJETAS DE CLIENTES ======= */
+/* ============================ */
+.clientes-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+}
+
+.cliente-card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #4CAF50;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cliente-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.cliente-nombre a {
+    color: #0078D7;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.cliente-nombre a:hover {
+    color: #004A99;
+}
+
+.cliente-articulo {
+    color: #555;
+}
+
+.cliente-estado {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.estado-pendiente {
+    color: #E74C3C;
+}
+
+.estado-pagado {
+    color: #2ECC71;
+}
+
+/* ============================ */
+/* ======= MENSAJE VACÍO ======= */
+/* ============================ */
+.clientes-vacio {
+    background-color: #FFEBEE;
+    color: #C62828;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #E57373;
+}
+
+/* ============================ */
+/* ======= BOTÓN DE REGRESO ======= */
+/* ============================ */
+.clientes-btn-volver {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.clientes-btn-volver:hover {
+    background-color: #388E3C;
+    transform: scale(1.07);
+}
+
+/* ============================ */
+/* ======= ANIMACIONES ======= */
+/* ============================ */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ============================ */
+/* ======= RESPONSIVE DESIGN ======= */
+/* ============================ */
+@media (max-width: 600px) {
+
+    .cliente-card {
+        width: 75%;
+    }
+
+    .clientes-totales-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .clientes-totales-titulo {
+        font-size: 2rem;
+    }
+
+    .clientes-btn-volver {
+        width: 100%;
+    }
+}
+
+/* Clientes Pendientes*/
+/* ============================ */
+/* ======= ESTILO GENERAL ======= */
+/* ============================ */
+.clientes-pendientes-body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;
+    padding: 20px;
+}
+
+/* ============================ */
+/* ======= CONTENEDOR PRINCIPAL ======= */
+/* ============================ */
+.clientes-pendientes-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    border: 2px solid #E74C3C; 
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* ============================ */
+/* ======= TÍTULO ======= */
+/* ============================ */
+.clientes-pendientes-titulo {
+    color: #E74C3C;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(200, 0, 0, 0.2);
+}
+
+/* ============================ */
+/* ======= TARJETAS DE CLIENTES ======= */
+/* ============================ */
+.clientes-pendientes-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+}
+
+.cliente-card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #E74C3C;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cliente-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.cliente-nombre a {
+    color: #0078D7;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.cliente-nombre a:hover {
+    color: #004A99;
+}
+
+.cliente-articulo,
+.cliente-monto {
+    color: #555;
+}
+
+.cliente-estado {
+    color: #E74C3C;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* ============================ */
+/* ======= MENSAJE VACÍO ======= */
+/* ============================ */
+.clientes-pendientes-vacio {
+    background-color: #FFEBEE;
+    color: #C62828;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #E57373;
+}
+
+/* ============================ */
+/* ======= BOTÓN DE REGRESO ======= */
+/* ============================ */
+.clientes-pendientes-btn-volver {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #E74C3C;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(231, 76, 60, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.clientes-pendientes-btn-volver:hover {
+    background-color: #C62828;
+    transform: scale(1.07);
+}
+
+/* ============================ */
+/* ======= ANIMACIONES ======= */
+/* ============================ */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ============================ */
+/* ======= RESPONSIVE DESIGN ======= */
+/* ============================ */
+@media (max-width: 600px) {
+    .clientes-pendientes-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .clientes-pendientes-titulo {
+        font-size: 2rem;
+    }
+
+    .clientes-pendientes-btn-volver {
+        width: 100%;
+    }
+}
+
+/* Gastos Internos */
+
+.gastos-internos-body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f7fc;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+/* ============================ */
+/* ======= CONTENEDOR PRINCIPAL ======= */
+/* ============================ */
+.gastos-internos-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+}
+
+/* ============================ */
+/* ======= TÍTULOS ======= */
+/* ============================ */
+.gastos-internos-titulo {
+    color: #4CAF50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.gastos-internos-subtitulo {
+    color: #2E7D32;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+/* ============================ */
+/* ======= FORMULARIO ======= */
+/* ============================ */
+.gastos-internos-form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.gastos-internos-form input,
+.gastos-internos-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.gastos-internos-btn-guardar {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.gastos-internos-btn-guardar:hover {
+    background-color: #45a049;
+}
+
+/* ============================ */
+/* ======= TABLA ======= */
+/* ============================ */
+.gastos-internos-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.gastos-internos-tabla th,
+.gastos-internos-tabla td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.gastos-internos-tabla th {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.gastos-internos-vacio {
+    text-align: center;
+    color: #C62828;
+    padding: 15px;
+    background-color: #FFEBEE;
+    border: 2px solid #E57373;
+    border-radius: 8px;
+}
+
+/* ============================ */
+/* ======= BOTÓN DE REGRESO ======= */
+/* ============================ */
+.gastos-internos-btn-volver {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.gastos-internos-btn-volver:hover {
+    background-color: #388E3C;
+    transform: scale(1.07);
+}
+
+
+
+.logout-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f44336; /* Rojo */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(244, 67, 54, 0.3);
+}
+
+.logout-btn:hover {
+    background-color: #d32f2f;
+    box-shadow: 0 6px 20px rgba(244, 67, 54, 0.4);
+}
+
+/* ============================ */
+/* ======= RESPONSIVE ======= */
+/* ============================ */
+
+@media (max-width: 480px) {
+    .menu-container {
+        padding: 30px 20px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .menu li a,
+    .logout-btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+.credito-body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f2f5;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 0;
+}
+
+/* ============================ */
+/* ======= CONTENEDOR PRINCIPAL ======= */
+/* ============================ */
+.credito-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* ============================ */
+/* ======= TÍTULO ======= */
+/* ============================ */
+.credito-titulo {
+    color: #4CAF50;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* ============================ */
+/* ======= TABLA ======= */
+/* ============================ */
+.credito-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.credito-tabla th,
+.credito-tabla td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.credito-tabla th {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+.credito-tabla td {
+    background-color: #f9f9f9;
+}
+
+/* ============================ */
+/* ======= MENSAJE VACÍO ======= */
+/* ============================ */
+.credito-vacio {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* ============================ */
+/* ======= BOTÓN DE REGRESO ======= */
+/* ============================ */
+.credito-btn-volver {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.credito-btn-volver:hover {
+    background-color: #2e7d32;
+    transform: scale(1.05);
+}
+
+/* ============================ */
+/* ======= RESPONSIVE DESIGN ======= */
+/* ============================ */
+@media (max-width: 600px) {
+    .credito-container {
+        width: 90%;
+        padding: 20px;
+        display: table;
+    }
+
+    .credito-tabla th,
+    .credito-tabla td {
+        font-size: 14px;
+    }
+
+    .gastos-internos-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .estado-cliente-body {	
+        height: auto;
+        margin-top: 40px;
+    }
+}
+
+/* Total */
+/* ============================ */
+/* ======= ESTILOS GENERALES ======= */
+/* ============================ */
+.total-body {
+    background-color: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 0;
+}
+
+/* ============================ */
+/* ======= CONTENEDOR PRINCIPAL ======= */
+/* ============================ */
+.total-container {
+    display: flex;
+    gap: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 30px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* ============================ */
+/* ======= CAJAS (GASTOS Y PAGOS) ======= */
+/* ============================ */
+.total-box {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e3f2fd;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.total-result {
+    font-size: 22px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* ============================ */
+/* ======= BOTÓN VOLVER ======= */
+/* ============================ */
+.total-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.total-btn-volver {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.total-btn-volver:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* ============================ */
+/* ======= RESPONSIVE DESIGN ======= */
+/* ============================ */
+@media (max-width: 600px) {
+    .total-container {
+        flex-direction: column;
+        width: 90%;
+        padding: 20px;
+    }
+
+    .total-box {
+        width: 100%;
+    }
+
+    .total-btn-volver {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* Estilo del botón de cerrar sesión */
+.logout-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 20px;
+    background-color: #FF7F32; /* Naranja cálido */
+    color: white;
+    font-size: 1.2em;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 127, 50, 0.2);
+}
+
+/* Efecto hover en el botón de cerrar sesión */
+.logout-btn:hover {
+    background-color: #003366; /* Azul oscuro */
+    box-shadow: 0 6px 20px rgba(0, 51, 102, 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.vertical-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.client-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fafafa;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.client-number {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.client-name {
+    font-size: 1.1em;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.btn-ver {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-ver:hover {
+    background-color: #218838;
+}
+
+.card-info p {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+
